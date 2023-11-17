@@ -8,12 +8,12 @@ spec:
 
   source:
     repoURL: https://github.com/gowdaganesh005/Argo-cd
-    targetRevesion: main
+    targetRevision: main
     path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: 
-  synPolicy:
+  syncPolicy:
     syncOptions:
     - CreateNamespace=true
     automated: 
