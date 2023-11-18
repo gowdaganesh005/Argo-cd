@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/gowdaganesh005/Argo-cd
-    targetRevision: main
+    repoURL: https://github.com/gowdaganesh005/Argo-cd.git
+    targetRevision: HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: 
+    namespace: my-server 
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
