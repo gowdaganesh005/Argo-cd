@@ -6,7 +6,7 @@ metadata:
     app: my-server
   name: my-server
 spec:
-  replicas: 25
+  replicas: 5
   selector:
     matchLabels:
       app: my-server
