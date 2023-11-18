@@ -12,7 +12,11 @@ spec:
     path: dev
   destination:
     server: https://kubernetes.default.svc
+<<<<<<< HEAD
+    namespace: my-server 
+=======
     namespace: my-server
+>>>>>>> e0e4ca6f7af8eb33425d8f13a7945167de810695
   syncPolicy:
     syncOptions:
     - CreateNamespace=true

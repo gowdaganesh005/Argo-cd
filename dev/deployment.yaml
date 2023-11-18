@@ -1,4 +1,4 @@
-﻿apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   creationTimestamp: null
@@ -6,7 +6,7 @@ metadata:
     app: my-server
   name: my-server
 spec:
-  replicas: 3
+  replicas: 25
   selector:
     matchLabels:
       app: my-server
